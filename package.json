@@ -1,0 +1,39 @@
+{
+  "name": "rectangular-prism",
+  "version": "1.0.0",
+  "description": "Quickly generate an indexed mesh for a rectangular prism, because triangles.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "beefy example.js --open -- -t glslify"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "dependencies": {},
+  "devDependencies": {
+    "beefy": "^2.0.2",
+    "canvas-fit": "^1.0.0",
+    "canvas-orbit-camera": "0.0.0",
+    "gl-context": "^0.1.0",
+    "gl-geometry": "0.0.0",
+    "gl-matrix": "^2.1.0",
+    "gl-vao": "^1.1.3",
+    "glslify": "^1.6.0",
+    "normals": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/rectangular-prism.git"
+  },
+  "keywords": [
+    "mesh",
+    "cube",
+    "rectangular",
+    "prism",
+    "geometry",
+    "gl"
+  ],
+  "homepage": "https://github.com/hughsk/rectangular-prism",
+  "bugs": {
+    "url": "https://github.com/hughsk/rectangular-prism/issues"
+  }
+}
